@@ -7,7 +7,7 @@ replicaCount: 1
 containerPort: 8080
 
 image:
-  repository: dockerhandson/java-web-app
+  repository: 502203921648.dkr.ecr.ap-south-1.amazonaws.com/javaapp
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: "latest"
